@@ -7,11 +7,9 @@ Official Code for: Guanyao Wu, Hongming Fu, Jinyuan Liu, Long Ma, Xin Fan, Rishe
 
 ---
 
-![preview](assets/workflow1.png)
 <p align="center">
   <img src="assets/preview.gif" width="100%">
 </p>
-
 
 ---
 
@@ -40,16 +38,19 @@ This code natively supports the same naming for over-/under-exposed image pairs.
 python test.py
 ```
 
+### Train
+The training code will be published with the journal version of the paper.
+
 
 ## Citation
 
 If this work has been helpful to you, we would appreciate it if you could cite our paper! 
 
 ```
-@article{wu2023hybrid,
+@inproceedings{wu2023hybrid,
   title={Hybrid-Supervised Dual-Search: Leveraging Automatic Learning for Loss-free Multi-Exposure Image Fusion},
   author={Wu, Guanyao and Fu, Hongming and Liu, Jinyuan and Ma, Long and Fan, Xin and Liu, Risheng},
-  journal={arXiv preprint arXiv:2309.01113},
-  year={2023}
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  year={2024}
 }
 ```
