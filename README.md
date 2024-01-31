@@ -7,7 +7,7 @@ Official Code for: Guanyao Wu, Hongming Fu, Jinyuan Liu, Long Ma, Xin Fan, Rishe
 
 ---
 
-![preview](assets/workflow.pdf)
+![preview](assets/workflow1.png)
 <p align="center">
   <img src="assets/preview.gif" width="100%">
 </p>
