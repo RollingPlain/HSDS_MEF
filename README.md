@@ -47,10 +47,13 @@ The training code will be published with the journal version of the paper.
 If this work has been helpful to you, we would appreciate it if you could cite our paper! 
 
 ```
-@inproceedings{wu2023hybrid,
-  title={Hybrid-Supervised Dual-Search: Leveraging Automatic Learning for Loss-free Multi-Exposure Image Fusion},
+@inproceedings{wu2024hybrid,
+  title={Hybrid-supervised dual-search: Leveraging automatic learning for loss-free multi-exposure image fusion},
   author={Wu, Guanyao and Fu, Hongming and Liu, Jinyuan and Ma, Long and Fan, Xin and Liu, Risheng},
-  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={6},
+  pages={5985--5993},
   year={2024}
 }
 ```
