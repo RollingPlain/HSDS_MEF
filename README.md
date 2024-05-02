@@ -31,9 +31,9 @@ pip install -r requirements.txt
 ```
 
 ### Test
-This code natively supports the same naming for over-/under-exposed image pairs. An naming example can be found in **./data** folder.
+This code natively supports the same naming for over-/under-exposed image pairs. An naming example can be found in **./Data/test** folder.
 ```shell
-# Test: use given example and save fused color images to ./data/result.
+# Test: use given example and save fused color images to ./Data/test/result.
 # If you want to test the custom data, please modify the file path in 'test.py'.
 python test.py
 ```
