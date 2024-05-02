@@ -1,20 +1,19 @@
 import os
-import numpy as np
+import cv2
 import torch
-import torchvision
 import utils
 import argparse
 import torch.utils
+import torchvision
 import torch.backends.cudnn as cudnn
-from model.model import Network
-import cv2
+from model.model_test import Network
 from tqdm import tqdm
 
 parser = argparse.ArgumentParser("ruas")
-parser.add_argument('--under', type=str, default='./data/under')
-parser.add_argument('--over', type=str, default='./data/over')
-parser.add_argument('--result_path', type=str, default='./data/result')
-parser.add_argument('--checkpoint', type=str, default='./final.pt')
+parser.add_argument('--under', type=str, default='./Data/test/under')
+parser.add_argument('--over', type=str, default='./Data/test/over')
+parser.add_argument('--result_path', type=str, default='./Data/test/result')
+parser.add_argument('--checkpoint', type=str, default='./ckp/final.pt')
 
 args = parser.parse_args()
 

@@ -38,8 +38,22 @@ This code natively supports the same naming for over-/under-exposed image pairs.
 python test.py
 ```
 
-### Train
-The training code will be published with the journal version of the paper.
+### Search & Train
+#### step 1
+
+```shell
+python train_search.py
+```
+
+#### step 2
+
+Find the string "arch" and "hyper" in S_EXP.log that describes the searched architectures and weights of loss funtions. Copy and paste it into the "./model/genotypes.py".
+
+#### step 3
+
+```shell
+python train.py
+```
 
 
 ## Citation

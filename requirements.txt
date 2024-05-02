@@ -3,3 +3,4 @@ opencv-python>=4.5.3.56
 pytorch>=1.8
 torchvision>=0.9
 tqdm>=4.66.1
+kornia>=0.5.2
